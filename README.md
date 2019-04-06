@@ -2,12 +2,25 @@
 [![Coverage Status](https://coveralls.io/repos/github/yurikrupnik/generator-babel/badge.svg?branch=master)](https://coveralls.io/github/yurikrupnik/generator-babel?branch=master)
 # generator-babel
 
-generate .babelrc file with support for react plugins.
+generator-babel creates .babelrc file with support for react plugins and installs the needed packages.
 
+## Install
+```
+npm install --global generator-node
+```
 ## Usage
 
 ```
-this.composeWith(require.resolve('generator-babel/app'), {
-    react: true
-})
+yo babel
 ```
+
+## Extending generator
+```
+this.composeWith(require.resolve('generator-babel/app'), {
+  /* options */
+});
+```
+
+## Options
+- destination (String, default '') destination path for .babelrc file.
+- react (Boolean, default false) include react support.
