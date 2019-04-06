@@ -1,7 +1,7 @@
 {
   "name": "generator-babel",
   "version": "1.0.0",
-  "description": "Generate .babelrc file with support for react plugins",
+  "description": "Generate .babelrc file with support for react plugin",
   "main": "app/index.js",
   "scripts": {
     "lint:templates": "ejslint app/templates**",
