@@ -1,6 +1,6 @@
 {
-  "name": "generator-babel",
-  "version": "1.0.0",
+  "name": "generator-babelrc",
+  "version": "1.0.1",
   "description": "Yeoman generator for .babelrc",
   "main": "app/index.js",
   "scripts": {
@@ -17,7 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/yurikrupnik/generator-babel.git"
   },
-  "author": "",
+  "author": {
+    "name": "Yuri Krupnik",
+    "email": "krupnik.yuri@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yurikrupnik/generator-babel/issues"
