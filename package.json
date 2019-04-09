@@ -1,7 +1,7 @@
 {
   "name": "generator-babel",
   "version": "1.0.0",
-  "description": "Generate .babelrc file with support for react plugin",
+  "description": "Yeoman generator for .babelrc",
   "main": "app/index.js",
   "scripts": {
     "lint:templates": "ejslint app/templates**",
@@ -43,5 +43,11 @@
     "webpack-node-externals": "^1.7.2",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^1.9.1"
-  }
+  },
+  "files": ["app"],
+  "keywords": [
+    "yeoman-generator",
+    "babel",
+    ".babelrc"
+  ]
 }
