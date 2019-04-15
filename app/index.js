@@ -25,8 +25,7 @@ module.exports = class Babel extends Generator {
             '@babel/core',
             '@babel/plugin-syntax-object-rest-spread',
             "@babel/plugin-syntax-dynamic-import",
-            '@babel/preset-env',
-            'babel-loader'
+            '@babel/preset-env'
         ].concat(react ? [
             '@babel/preset-react'
         ]: []), { 'save-dev': true });
