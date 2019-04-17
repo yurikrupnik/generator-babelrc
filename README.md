@@ -11,7 +11,7 @@ npm install --global generator-babelrc
 ## Usage
 
 ```
-yo babel
+yo babelrc
 ```
 
 ## Extending generator
