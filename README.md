@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/yurikrupnik/generator-babel.svg?branch=master)](https://travis-ci.com/yurikrupnik/generator-babel)
-[![Coverage Status](https://coveralls.io/repos/github/yurikrupnik/generator-babel/badge.svg?branch=master)](https://coveralls.io/github/yurikrupnik/generator-babel?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/yurikrupnik/generator-babel/badge.svg?branch=master)](https://coveralls.io/github/yurikrupnik/generator-babel?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/yurikrupnik/generator-babelrc.svg)](https://greenkeeper.io/)
 # generator-babelrc
 
 generator-babel creates .babelrc file with support for react plugins and installs the needed packages.
